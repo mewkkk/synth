@@ -1,0 +1,7 @@
+* { box-sizing:border-box; }
+html { background:var(--paper); }
+body { margin:0; color:var(--ink); font-family:Arial,Helvetica,sans-serif; background:var(--paper); }
+button,input { font:inherit; }
+button { color:inherit; cursor:pointer; }
+button:focus-visible,input:focus-visible { outline:2px solid var(--blue); outline-offset:4px; }
+.page { width:min(1460px,100%); margin:auto; padding:0 4.6% 46px; position:relative; }
